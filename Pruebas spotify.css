@@ -1,7 +1,7 @@
 html {
   margin: 0px;
   padding: 0px; 
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .spotify-header {
@@ -62,6 +62,7 @@ html {
       margin-left: 30px;
     }
       li#textoseccion1 {
+        font-weight: bold;
         font-size: 48px;
         line-height: 48px;
         margin-bottom: 0rem;        
@@ -173,3 +174,62 @@ div#seccion2 {
     td#check {
       text-align: center;
     } 
+    .flexbox3 {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      background-color: black;
+      color: white;
+      padding: 56px 32px;
+    }
+
+    div.planes {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    p img {
+      height: 30px;
+      border-radius: 5px;  
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: center;
+    } 
+    div.planesflexbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 10px 10px 10px;
+      margin-top: 50px;
+      box-sizing: border-box;
+    }
+    ul.premium li {
+      list-style-type: none ;
+      font-size: 16px;
+      padding: 2px; 
+      margin-left: 30px;
+    } 
+      ul.premium li::before {
+        content: "✓"; 
+        margin: 10px;}
+
+.flexbox4 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+          background-color: black;
+          color: white;
+          padding: 56px 32px;
+}
+section#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 6fr);
+  justify-content: center;
+  
+}
+.flexbox5 {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: black;
+  color: white;
+  padding: 56px 32px;
+}
